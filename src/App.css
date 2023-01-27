@@ -2,6 +2,12 @@
   display: flex;
   justify-content: center;
 }
+.app-wrapper{
+  margin-top: 40px;
+  padding: 20px;
+  border: 1px solid rgb(215, 38, 215);
+  width: 700px;
+}
 .app{
   width: 700px;
   border: 1px solid rgb(215, 38, 215);
@@ -13,4 +19,14 @@
 }
 .todo-list strong{
 margin-right: 10px;
+}
+.line{
+  text-decoration: line-through;
+}
+.addForm{
+  display: grid;
+  grid-template-columns: 1fr 150px;
+}
+.addForm > input{
+  padding: 10px 20px;
 }
